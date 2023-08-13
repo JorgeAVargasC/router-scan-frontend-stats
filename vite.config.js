@@ -23,9 +23,9 @@ export default defineConfig({
       '@/logos': path.resolve(__dirname, './src/assets/logos/'),
       '@/videos': path.resolve(__dirname, './src/assets/videos/'),
       '@/data': path.resolve(__dirname, './src/data/'),
-      https: 'agent-base',
     },
   },
+  https: 'agent-base',
   plugins: [react()],
   server: {
     host: true,
